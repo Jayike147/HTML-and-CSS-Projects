@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My One-Page Website</title>
+</head>
+<body>
+  <!-- Navigation using bookmarks -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#pictures">Pictures</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#footer">Footer</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My One-Page Website</h1>
+    <p>This is an example of a simple one-page layout using HTML.</p>
+  </section>
+
+  <!-- Pictures Section -->
+  <section id="pictures">
+    <h2>My Pictures</h2>
+    <p>Here are some of my favorite images:</p>
+    <img src="cat.jpg" alt="Cat Picture" width="200" />
+    <img src="dog.png" alt="Dog Picture" width="200" />
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+      
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+      
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="5" cols="30"></textarea><br /><br />
+      
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Video Section -->
+  <section id="video">
+    <h2>My Favorite Video</h2>
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+      title="YouTube video player"
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="footer">
+    <p>&copy; 2025 My One-Page Website</p>
+  </footer>
+</body>
+</html>
